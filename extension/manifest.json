@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Save to TabShelf",
+  "version": "1.0.0",
+  "description": "Save the current page to your Mac menu bar shelf with one click.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAui6/D3S+SOQ9zAeGByUNftfIzEByNq0tNA4Y+VpVzXlG+SPwu+oXtbvlFqnn5hTXLMr5R+lhu4j3AbernzZg5GyvdtWwQ3eH/PyHfQruMsJ2ErmYRXg53d4rk3skpkSzo7z61SHroeKV3PvaiQzI+F0SjrMyWJxFI7s1KCmrRgl9tachj12aQbaNX02J+s8aMTbXW7YvWhjMDpzM0+H1MNdt4mcVE1b0VRmf1LEdyFIgXTpL+EqCatRAFjhRpV2yxcTeZQUaGjoOwDNjwvkmQPNqrWu9QR4hsQH0FBuUSOPEb2mIfCClhMn2w6tNGH3qaYOpvSl7iHucVvWpE4JWCQIDAQAB",
+  "permissions": ["activeTab", "nativeMessaging"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Save this page to TabShelf",
+    "default_icon": { "16": "icon16.png", "32": "icon32.png", "48": "icon48.png", "128": "icon128.png" }
+  },
+  "icons": { "16": "icon16.png", "32": "icon32.png", "48": "icon48.png", "128": "icon128.png" }
+}
