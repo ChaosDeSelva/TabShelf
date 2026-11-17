@@ -4,6 +4,10 @@
 
 A small native Mac menu bar app for the sites you need throughout the day. Save a list, click a site to open it in Chrome, and close the browser window whenever you're finished. Your list stays on the shelf.
 
+## Install
+
+[Download TabShelf 1.3.0 for Apple silicon](https://github.com/ChaosDeSelva/TabShelf/releases/download/v1.3.0/TabShelf-1.3.0-arm64.dmg). Open the disk image and drag TabShelf into Applications. Requires macOS 13 or later and Google Chrome.
+
 ## What it does
 
 - Add, search, rename, copy, and remove saved sites. Removal always asks for confirmation.
